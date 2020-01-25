@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Дмитрий Патеев](https://up.htmlacademy.ru/htmlcss/27/user/1320127).
-* Наставник: Александр Кошара.
+* Наставник: [Александр Кошара](https://htmlacademy.ru/profile/rednaxxxela).
 
 ---
 
