@@ -93,16 +93,33 @@
       <li><a href="#">Перфораторы</a></li>
     </ul>
   </section>
-  <h2 class="rotary-hammers container">Перфораторы</h2>
+  <div  class="rotary-hammers container">
+  <h2>Перфораторы</h2>
+  </div>
   <div class="container catalog">
     <section>
       <form class="filter">
         <h3>Фильтр:</h3>
-        <fieldset>
+        <fieldset class="filter-item">
           <legend>Цена:</legend>
-          <div class="double-range"></div>
-          <input type="text" name="min-price">
-          <input type="text" name="max-price">
+          <div class="range-filter">
+            <div class="range-controls">
+              <div class="scale">
+                <div class="bar"></div>
+              </div>
+              <div class="toggle toggle-min"></div>
+              <div class="toggle toggle-max"></div>
+            </div>
+            <div class="price-controls">
+              <label class="min-price">
+                <input name="min-price" type="number" value="0">
+              </label>
+              <p>–</p>>
+              <label class="max-price">
+                <input name="max-price" type="number" value="30000">
+              </label>
+            </div>
+          </div>
         </fieldset>
         <fieldset class="filter-manufacturers">
           <legend>Производители:</legend>
@@ -236,10 +253,9 @@
             </svg>
           </a></li>
       </ul>
-      <section class=" popular-item goods">
-        <h3 class="visually-hidden">Список подходящих товаров</h3>
+      <section class="popular-item goods">
         <article>
-          <a href="#"><img src="../img/content_img/item-2-index-page.jpg">
+          <a href="#"><img src="../img/content_img/item.png">
             <div class="popular-item-hover">
               <a class="buy" href="#">
                 <div class="center-buy">
@@ -261,7 +277,7 @@
           </a>
         </article>
         <article>
-          <a href="#"><img src="../img/content_img/item-3-index-page.jpg">
+          <a href="#"><img src="../img/content_img/item2.png">
             <div class="popular-item-hover">
               <a class="buy" href="#">
                 <div class="center-buy">
@@ -282,8 +298,8 @@
             </div>
           </a>
         </article>
-        <article>
-          <a href="#"><img src="../img/content_img/item-4-index-page.jpg">
+        <article class="flag-new">
+          <a href="#"><img src="../img/content_img/item3.png">
             <div class="popular-item-hover">
               <a class="buy" href="#">
                 <div class="center-buy">
@@ -304,7 +320,7 @@
           </a>
         </article>
         <article>
-          <a href="#"><img src="../img/content_img/item-2-index-page.jpg">
+          <a href="#"><img src="../img/content_img/item2.png">
             <div class="popular-item-hover">
               <a class="buy" href="#">
                 <div class="center-buy">
@@ -326,7 +342,7 @@
           </a>
         </article>
         <article>
-          <a href="#"><img src="../img/content_img/item-3-index-page.jpg">
+          <a href="#"><img src="../img/content_img/item2.png">
             <div class="popular-item-hover">
               <a class="buy" href="#">
                 <div class="center-buy">
@@ -348,7 +364,7 @@
           </a>
         </article>
         <article>
-          <a href="#"><img src="../img/content_img/item-4-index-page.jpg">
+          <a href="#"><img src="../img/content_img/item3.png">
             <div class="popular-item-hover">
               <a class="buy" href="#">
                 <div class="center-buy">
@@ -369,7 +385,7 @@
           </a>
         </article>
         <article>
-          <a href="#"><img src="../img/content_img/item-2-index-page.jpg">
+          <a href="#"><img src="../img/content_img/item2.png">
             <div class="popular-item-hover">
               <a class="buy" href="#">
                 <div class="center-buy">
@@ -391,7 +407,7 @@
           </a>
         </article>
         <article>
-          <a href="#"><img src="../img/content_img/item-3-index-page.jpg">
+          <a href="#"><img src="../img/content_img/item2.png">
             <div class="popular-item-hover">
               <a class="buy" href="#">
                 <div class="center-buy">
@@ -413,7 +429,7 @@
           </a>
         </article>
         <article>
-          <a href="#"><img src="../img/content_img/item-4-index-page.jpg">
+          <a href="#"><img src="../img/content_img/item3.png">
             <div class="popular-item-hover">
               <a class="buy" href="#">
                 <div class="center-buy">
