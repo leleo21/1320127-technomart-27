@@ -12,14 +12,14 @@
     <div class="container">
       <section class="order-panel">
         <h2 class="visually-hidden">Панель заказа</h2>
-        <a>
-          <img class="main-logo" src="img/content_img/logo-technomart.svg" width="220" height="47"
+        <a href="#">
+          <img class="main-logo" src="img/content_img/logo-technomart.svg"
                alt="Логотип интернет-магазина  «Техномарт»">
         </a>
         <form class="form-search" action="#">
           <svg class="icon-search" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
             <path
-                  d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"/>
+              d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"/>
           </svg>
           <input class="search-row" name="search" placeholder="Поиск:" type="search"/>
         </form>
@@ -43,17 +43,22 @@
     </div>
   </div>
   <div class="box container">
-    <div>
-      <p class="main-description">Интернет-магазин
-        строительных материалов
-        и инструментов для ремонта</p>
-    </div>
+    <p class="main-description">Интернет-магазин
+      строительных материалов
+      и инструментов для ремонта</p>
     <div>
       <a class="tel" href="tel:+78125550555">+7&nbsp(812)&nbsp555-05-55</a>
       <p class="address">г. Санкт-Петербург, ул. Б. Конюшенная,д. 19/8</p>
     </div>
     <div>
-      <a href="#" class="button-white button-login">Войти</a>
+      <a href="#" class="button-login">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17">
+          <path d="M14.875 8.5L6 0v6H0v5h6v6z"/>
+          <path
+            d="M16.986 15.01h-5.027V17h5.027c2.178 0 3.004-1.81 3.029-3.026V3.028C19.99 1.811 19.164 0 16.986 0h-5.027v1.99h5.027c.839 0 .992.681 1.01 1.057v10.904c-.017.376-.171 1.059-1.01 1.059z"/>
+        </svg>
+        Войти
+      </a>
       <a href="#" class="button-white button-reg">Регистрация</a>
     </div>
   </div>
@@ -72,31 +77,35 @@
   <h1 class="visually-hidden">Интернет-магазин строительных материалов и инструментов для ремонта «Техномарт»</h1>
   <section class="products-and-benefits container">
     <h2 class="visually-hidden">Товары и приемущества</h2>
-    <div>
-      <h3>Материалы</h3>
-      <a href="#">На любой вкус</a>
+    <div class="left-column">
+      <div class="advantage-1">
+        <h3>Материалы</h3>
+        <a href="#">На любой вкус</a>
+      </div>
+      <div class="advantage-2">
+        <h3>Инструмент</h3>
+        <a href="#">На все случаи</a>
+      </div>
+      <div class="advantage-4">
+        <h3 class="drill">Дрели</h3>
+        <p>Соседям на радость</p>
+        <button class="button-left"></button>
+        <button class="button-right"></button>
+        <a href="#" class="button-catalog">Открыть каталог</a>
+        <button class="current-slide"></button>
+        <button class="inactive-slide"></button>
+      </div>
     </div>
-    <div>
-      <h3>Инструмент</h3>
-      <a href="#">На все случаи</a>
-    </div>
-    <div class="no-margin">
-      <h3>Техника</h3>
-      <a href="#">Для стройки</a>
-    </div>
-    <div>
-      <h3 class="drill">Дрели</h3>
-      <p>Соседям на радость</p>
-      <button class="button-left"></button>
-      <button class="button-right"></button>
-      <a href="#" class="button-catalog">Открыть каталог</a>
-    </div>
-    <div class="side-item no-margin">
-      <div>
+    <div class="right-column">
+      <div class="advantage-3">
+        <h3>Техника</h3>
+        <a href="#">Для стройки</a>
+      </div>
+      <div class="advantage-5">
         <h3>Скидки&nbsp 50%</h3>
         <a href="#">На 350 товаров</a>
       </div>
-      <div class="no-margin">
+      <div class="advantage-6">
         <h3>Доставка</h3>
         <a href="#">Бесплатно</a>
       </div>
@@ -198,11 +207,13 @@
       <li><a href="#"> <img src="img/content_img/logo-bosch.jpg" alt="Логотип компании «Bosh»"></a></li>
       <li><a href="#"> <img src="img/content_img/logo-makita.jpg" alt="Логотип компании «Makita»"></a></li>
       <li><a href="#"> <img src="img/content_img/logo-de-walt.jpg" alt="Логотип компании «DeWalt»"></a></li>
-      <li class="right-manufactures"><a href="#"> <img src="img/content_img/logo-interskol.jpg" alt="Логотип компании «Интерскол»"></a></li>
+      <li class="right-manufactures"><a href="#"> <img src="img/content_img/logo-interskol.jpg"
+                                                       alt="Логотип компании «Интерскол»"></a></li>
       <li><a href="#"> <img src="img/content_img/logo-hitachi.jpg" alt="Логотип компании «Hitachi»"></a></li>
       <li><a href="#"> <img src="img/content_img/logo-lg.jpg" alt="Логотип компании «LG»"></a></li>
       <li><a href="#"> <img src="img/content_img/logo-aeg.jpg" alt="Логотип компании «AEG Power Solutions»"></a></li>
-      <li class="right-manufactures"><a href="#"> <img src="img/content_img/logo-metabo.jpg" alt="Логотип компании «Metabo work. don't play.»"></a>
+      <li class="right-manufactures"><a href="#"> <img src="img/content_img/logo-metabo.jpg"
+                                                       alt="Логотип компании «Metabo work. don't play.»"></a>
       </li>
     </ul>
   </section>
@@ -215,38 +226,31 @@
         <div class="line">
           <ul>
             <li>
-              <input class="delivery-key visually-hidden" type="radio" id="tab" name="choice-service" checked>
-              <label for="tab">Доставка</label>
-              <h3>Доставка</h3>
-              <p class="delivery-service">Мы с удовольствием доставим ваш товар прямо
-                к вашему подъезду совершенно бесплатно!
-                Ведь&nbspмы неплохо заработаем,
-                поднимая&nbspего&nbspна&nbspваш этаж!</p>
+              Доставка
             </li>
             <li>
-              <input class="q1" type="radio" id="tab2" name="choice-service">
-              <label for="tab2">Гарантия</label>
+              Гарантия
             </li>
             <li>
-              <input type="radio" id="tab3" name="choice-service">
-              <label class="content " for="tab3">Кредит</label>
+              Кредит
             </li>
           </ul>
-          <div class="delivery-service content">
+          <div class="delivery-service content ">
+            <h3>Доставка</h3>
             <p>Мы с удовольствием доставим ваш товар прямо
               к вашему подъезду совершенно бесплатно!
               Ведь&nbspмы неплохо заработаем,
               поднимая&nbspего&nbspна&nbspваш этаж!</p>
           </div>
         </div>
-        <div class="warranty">
+        <div class="warranty visually-hidden">
           <h3>Гарантия</h3>
           <p>Если купленный у нас товар поломается или заискрит,
             а также в случае пожара, спровоцированного его возгоранием, вы всегда можете быть уверены в нашей гарантии.
             Мы обменяем сгоревший товар на новый.
             Дом уж восстановите как-нибудь сами.</p>
         </div>
-        <div class="credit ">
+        <div class="credit visually-hidden">
           <h3>Кредит</h3>
           <p>Залезть в долговую яму стало проще!
             Кредитные консультанты придут вам на помощь.</p>
@@ -259,7 +263,7 @@
     <div>
       <h2 class="visually-hidden">О нас</h2>
       <h3>Компания «Техномарт»</h3>
-      <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и
+      <p class="about-delivery">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и
         строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
       <p class="delivery">Мы можем доставить ваш товар в самые отдаленные точки России!
         Техномарт работает со многими транспортными компаниями:</p>
@@ -274,7 +278,7 @@
       <h3>Контакты</h3>
       <p>Вы можете забрать товар сами,<br>
         заехав в наш офис:</p>
-      <a href="#"> <img src="img/content_img/map.jpg"
+      <a href="#"> <img class="map" src="img/content_img/map.jpg"
                         alt="Адрес нашего офиса: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8"></a>
       <a href="#" class="about-us-button button-red about-us-button-write">Заблудились? Напишите нам!</a>
     </div>
